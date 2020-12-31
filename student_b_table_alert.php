@@ -88,7 +88,7 @@ table{
 		<td><?php echo $var['standard']?></td>
 		
 		<td ><a onclick="return confirm('You want to delete');" href="student_b_table.php?id=<?php echo $var['id']?>" class='btn btn-danger'>DELETE</a></td>
-		<td><a href="student_b_edit.php?id=<?php echo $var['id']?>" class='btn btn-info'>EDIT CLASS</a></td>
+		<td><a onclick="return confirm('Wana Edit This ?');" href="student_b_edit.php?id=<?php echo $var['id']?>" class='btn btn-info'>EDIT CLASS</a></td>
 
 
 
